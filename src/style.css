@@ -19,6 +19,11 @@
 
 
         .navbar{
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            
+            width: 100%;
             background-color: #001524;
            height: 10vh;
            align-items: center;
@@ -36,7 +41,7 @@
             background-color: antiquewhite;
             color: #001524;
             margin: 7px;
-            padding: 9px;
+            padding: 6px;
             font-size: 25px;
             border-radius: 4px;
 
@@ -60,6 +65,7 @@
 
         /*shops editing*/
         .shop{
+            margin-top: 12vh;
             display:grid;
             grid-template-columns: repeat(4,223px);
             gap: 30px;
