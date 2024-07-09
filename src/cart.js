@@ -55,7 +55,7 @@ let generateCartItems = () => {
 	} else {
 		shopingCart.innerHTML = ``;
 		label.innerHTML = `
-        <h2>cart is Empty</h2>
+        <h2 class= "hh2" >cart is Empty</h2>
         <a href= "index.html">
         <button class = "homeBtn">back to home</button>
         `;
@@ -124,7 +124,7 @@ let totalAmount = (id) => {
 			return item * search.price
 		}).reduce((previous,current)=> previous + current)
 		console.log(amount)
-		label.innerHTML = `<h2>Your's Total Bill is: $ ${amount} </h2>
+		label.innerHTML = `<h2 class= "hh2">Your's Total Bill is: $ ${amount} </h2>
 		<button class="checkOut">Check Out</button>
 		<button onclick= "removeAll()" class="removeAll">Remove All</button>
 		`;

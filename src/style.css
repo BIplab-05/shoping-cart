@@ -65,7 +65,7 @@
 
         /*shops editing*/
         .shop{
-            margin-top: 12vh;
+            margin-top: 15vh;
             display:grid;
             grid-template-columns: repeat(4,223px);
             gap: 30px;
@@ -129,6 +129,7 @@
         }
 
         .homeBtn, .checkOut, .removeAll{
+           
             background-color: #001524;
             color: antiquewhite;
             border: none;
@@ -152,6 +153,7 @@
 
         /* style for shoping cart starts from here */
         .shopingCart{
+            
             display: grid;
             grid-template-columns: repeat(1,320px);
             justify-content: center;
@@ -182,6 +184,10 @@
             color: antiquewhite;
             border-radius: 3px;
             padding: 3px 6px;
+        }
+
+        .hh2 {
+            margin-top: 12vh;
         }
 
 
